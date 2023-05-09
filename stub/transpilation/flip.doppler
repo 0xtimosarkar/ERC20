@@ -1,9 +1,0 @@
-pragma doppler v0.0.1;
-
-quantum flipflop (input q, output q) {
-    qubit temp;
-    X | temp;
-    CNOT | (q, temp);
-    X | temp;
-    CNOT | (temp, q);
-}
