@@ -7,7 +7,7 @@ require('dotenv').config(); // Required to load environment variables from .env 
 const { INFURA_PROJECT_ID, PRIVATE_KEY } = process.env;
 
 module.exports = {
-  solidity: "0.8.4",
+  solidity: "0.6.5",
   networks: {
     goerli: {
       url: `https://goerli.infura.io/v3/${INFURA_PROJECT_ID}`,
