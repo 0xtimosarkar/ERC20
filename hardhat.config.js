@@ -11,8 +11,12 @@ module.exports = {
   networks: {
     goerli: {
       url: `https://goerli.infura.io/v3/${INFURA_PROJECT_ID}`,
-      accounts: [`0x${PRIVATE_KEY}`]
-    }
+      accounts: [PRIVATE_KEY]
+    },
+    mumbai: {
+      url: `https://polygon-mumbai.infura.io/v3/${INFURA_PROJECT_ID}`,
+      accounts: [PRIVATE_KEY],
+    },
   },
   // Contract deployment scripts
   paths: {
