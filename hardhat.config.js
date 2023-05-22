@@ -14,7 +14,7 @@ module.exports = {
       accounts: [PRIVATE_KEY]
     },
     mumbai: {
-      url: `https://polygon-mumbai.infura.io/v3/${INFURA_PROJECT_ID}`,
+      url: `https://rpc-mumbai.maticvigil.com`,
       accounts: [PRIVATE_KEY],
     },
   },
